@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'jenkinsmaven:latest'
+      image 'andrewcowling/jenkinsmaven'
     }
   }
 
